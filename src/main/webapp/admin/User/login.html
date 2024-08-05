@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login page</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+   
+<style>
+    body {
+        background: linear-gradient(120deg, #2980b9, #8e44ab);
+
+    }
+
+    .container {
+        margin-top: 160px;
+    }
+    
+    .card{
+        
+        box-shadow:10px 15px 20px 10px rgb(0,0,0,0.5);
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-5">
+
+                <div class="card">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>Login form</h2>
+
+                    </div>
+                    <div class="card-body">
+                        <form action="login.jsp" method="POST">
+                            <div class="form-group "> <label for="username"> username:</label>
+                                <input type="text" class="form-control" id="username" placeholder="Enter uname"
+                                    name="username" required><br>
+                            </div>
+                            <div class="form-group"> <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                    name="password" required><br>
+                            </div>
+                            <input type="submit" class="btn btn-danger w-100" value="Login">
+                            <div>
+
+                            
+                              
+                            </div>
+
+                    </div>
+                    </form>
+                    <div class="card-footer text-right">
+                        <p>Registration here
+                        <a href="registration.html"> Registration</a></P>
+
+                    <div >
+                        <p>Forgot your login details?
+                        <a href="forgot.html">Forgot Password</a></P>
+
+                    </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+   
+      
+</body>
+</html>

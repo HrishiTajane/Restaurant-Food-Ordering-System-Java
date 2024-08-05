@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+   
+</head>
+<style>
+    body {
+        background: linear-gradient(120deg, #2980b9, #8e44ab);
+
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+    .card{
+        
+        box-shadow:10px 20px 20px 10px rgb(0,0,0,0.5);
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-5">
+
+                <div class="card">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>Registration form</h2>
+
+                    </div>
+                    <div class="card-body">
+                        <form action="registration.jsp" method="post">
+                            <div class="form-group"> <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name"
+                                    name="name" required><br>
+                            </div>
+                            
+                             <div class="form-group"> <label for="l_name">Last name:</label>
+                                <input type="text" class="form-control" id="l_name" placeholder="Enter last name"
+                                    name="l_name" required><br>
+                            </div>
+                            
+                           <div class="form-group "> <label for="username">phone no:</label>
+                            <input type="number" class="form-control" id="phone_no" placeholder="Enter phone no"
+                            name="phone_no" required><br>
+                        </div>
+                        <div class="form-group"> <label for="e mail">e-mail:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter e mail"
+                                name="email" required><br>
+                        </div>                        
+
+
+                            <div class="form-group "> <label for="username">username:</label>
+                                <input type="text" class="form-control" id="username" placeholder="Enter uname"
+                                    name="uname" required><br>
+                            </div>
+                            <div class="form-group"> <label for="pwd">Password:</label>
+                                <input type="text" class="form-control" id="password" placeholder="Enter password"
+                                name="password" required><br>
+                            </div>
+                           
+                            <div class="form-group"> <label for="pwd">Cpassword:</label>
+                                <input type="text" class="form-control" id="cpassword" placeholder="Enter confirmed password"
+                                name="cpassword" required><br>
+                            </div>
+                            
+                            <div class="form-group"> <label for="Address">Address:</label>
+                               <textarea rows="2" class="form-control" name="address" placeholder="Enter a Address" required></textarea>
+                            </div>                            
+                            
+                           <br>
+                           
+                            
+                            <input type="submit" class="btn btn-danger w-100" value="Submit"><br>
+                            <div>
+                   
+                 
+              </div>
+
+                    </div>
+                    </form>
+                    <div class="card-footer text-right">
+                   <p> Login here 
+                        <a href="login.html">&copy Login</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
+

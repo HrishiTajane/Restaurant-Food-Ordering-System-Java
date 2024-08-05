@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forgot Password</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<style>
+    body {
+        background: linear-gradient(120deg, #2980b9, #8e44ab);
+
+    }
+
+    .container {
+        margin-top: 60px;
+    }
+    
+    .card{
+        
+        box-shadow:10px 15px 20px 10px rgb(0,0,0,0.5);
+    }
+</style>
+<body>
+   
+   <div class="container">
+
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-5">
+
+                <div class="card">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>Forgot Password</h2>
+
+                    </div>
+                    <div class="card-body">
+                        <form action="forgot.jsp" method="post">
+                            
+                            
+                           
+                            <div class="form-group"> <label for="e mail">e-mail:</label>
+                               <input type="email" class="form-control" placeholder="Enter e mail" name="email" required><br>
+                            </div>                        
+                            <div class="form-group "> <label for="username">username:</label>
+                                <input type="text" class="form-control" placeholder="Enter uname" name="uname" required><br>
+                            </div>
+                            <div class="form-group"> <label for="pwd">Enter new password:</label>
+                                <input type="password" class="form-control" placeholder="Enter new password" name="password" required><br>
+                            </div>
+                            <div class="form-group"> <label for="pwd">Enter confirmed password:</label>
+                                <input type="password" class="form-control" placeholder="Enter confirmed password" name="cpassword" required><br>
+                            </div>
+                           <br>
+                           
+                            
+                            <input type="submit" class="btn btn-danger w-100" value="Submit"><br>
+                            <div>
+                   
+                 
+              </div>
+
+                    </div>
+                    </form>
+                    <div class="card-footer text-right">
+                   <p> Login here 
+                        <a href="login.html">&copy Login</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+   
+</body>
+</html>
